@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radiant Dental Care</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <h1>Radiant Dental Care</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#team">Meet Our Team</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#staff">Staff Area</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- MAIN CONTENT -->
+    <main>
+        <!-- ABOUT SECTION -->
+        <section id="about">
+            <h2>About Us</h2>
+            <p>At Radiant Dental Care, your smile is our top priority. Our experienced team uses the latest technology to provide exceptional dental care tailored to your needs.</p>
+        </section>
+
+        <!-- SERVICES SECTION -->
+        <section id="services">
+            <h2>Our Services</h2>
+            <ul>
+                <li>General Dentistry</li>
+                <li>Cosmetic Dentistry</li>
+                <li>Orthodontics</li>
+                <li>Emergency Care</li>
+            </ul>
+        </section>
+        
+        <!-- TEAM SECTION -->
+        <section id="team">
+            <h2>Meet Our Team</h2>
+            <div class="team-container">
+                <div class="team-member">
+                    <img src="https://via.placeholder.com/150" alt="Dr. Brooklyn">
+                    <h3>Dr. Brooklyn</h3>
+                    <p>General Dentist</p>
+                </div>
+                <div class="team-member">
+                    <img src="https://via.placeholder.com/150" alt="Hygienist Reuben">
+                    <h3>Hygienist Reuben</h3>
+                    <p>Dental Hygienist</p>
+                </div>
+                <div class="team-member">
+                    <img src="https://via.placeholder.com/150" alt="Receptionist Kezia">
+                    <h3>Receptionist Kezia</h3>
+                    <p>Front Desk</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form action="#contact" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
+        <!-- STAFF AREA -->
+        <section id="staff">
+            <h2>Staff Area</h2>
+            <p>Staff members can log in to access patient and appointment management tools.</p>
+            <form action="staff_login.php" method="POST">
+                <input type="text" name="username" placeholder="Username" required>
+                <input type="password" name="password" placeholder="Password" required>
+                <button type="submit">Login</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2023 Radiant Dental Care. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
